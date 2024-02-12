@@ -1,11 +1,19 @@
 p = int(input("Donner la valeur de p: "))
 n = int(input("Donner la valeur de n: "))
-def factorielle(nombre):
-		if nombre == 0:
-			return 1
-		return nombre * factorielle(nombre-1)
 if n < 0 or p < 0 or n < p:
 	print("p et n doit être des entiers naturel et n doit être superieur ou égale p")
 else:
-	resultat = factorielle(n) / (factorielle(p) * factorielle(n-p))
+	n_factoriel = 1
+	if n != 0 and n != 1:
+		for i in range(1,n+1):
+			n_factoriel = n_factoriel * i
+	p_factoriel = 1
+	if p != 0 and p != 1:
+		for i in range(1,p+1):
+			p_factoriel = p_factoriel * i
+	n_moins_p_factoriel = 1
+	if n-p != 0 and n-p != 1:
+		for i in range(1,n-p+1):
+			n_moins_p_factoriel = n_moins_p_factoriel * i
+	resultat = n_factoriel / (p_factoriel * n_moins_p_factoriel)
 	print(resultat)
