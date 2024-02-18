@@ -1,0 +1,21 @@
+Algorithme cnp
+Var n, p, fact_n, fact_p, fact_n_p: entier cnp: reel
+fonction factorielle(n: entier): entier
+Var f, comp: entiers
+Debut
+    f <- 1
+    comp <- 2
+    tantque comp <= n faire
+            f <- f * comp
+            comp <- comp + 1
+    fintantque
+    retourne f
+Fin
+Début
+	lire(n,p)
+	fact_n <- factorielle(n)
+	fact_p <- factorielle(p)
+	fact_n_p <- factorielle(n-p)
+	cnp <- fact_n / (fact_p * fact_n_p)
+	ecrire(cnp)
+Fin
