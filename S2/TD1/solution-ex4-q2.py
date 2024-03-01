@@ -1,3 +1,4 @@
+# Question: Ecrire un algorithm qui remplit dex tableaux T1 et T2 dynamiques et les fusionne dans un tableau T3.
 t1 = []
 t2 = []
 t3 = []

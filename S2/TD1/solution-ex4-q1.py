@@ -1,3 +1,4 @@
+# Question: Fusionner deux tableaux t1 et t2 dans un tableau t3.
 t1 = []
 t2 = []
 t3 = []

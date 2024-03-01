@@ -1,3 +1,4 @@
+# Question: Ecrire un programme qui demande à l’utilisateur de saisir deux entiers naturels n et p et qui affiche la valeur de C(n,p).
 p = int(input("Donner la valeur de p: "))
 n = int(input("Donner la valeur de n: "))
 if n < 0 or p < 0 or n < p:

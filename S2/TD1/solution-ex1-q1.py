@@ -1,3 +1,5 @@
+# Question: Écrire un programme qui permute circulairement les valeurs de trois variables a, b et c.
+
 # Lire les variables a, b et c
 a = int(input("Donner la valeur de a: "))
 b = int(input("Donner la valeur de b: "))

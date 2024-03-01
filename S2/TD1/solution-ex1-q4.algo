@@ -1,3 +1,4 @@
+//  Question: Ecrire un programme qui demande à l’utilisateur de saisir deux entiers naturels n et p et qui affiche la valeur de C(n,p).
 Algorithme cnp
 Var n, p, fact_n, fact_p, fact_n_p: entier cnp: reel
 fonction factorielle(n: entier): entier

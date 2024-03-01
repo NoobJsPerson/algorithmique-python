@@ -1,3 +1,5 @@
+# Question: Ecrire un programme qui lit l'heure et les minutes et affiche l'heure qu'il sera une minute plus tard.
+
 # Lire l'heure et les minutes
 heure = int(input("Donner l'heure: "))
 minutes = int(input("Donner les minutes: "))
